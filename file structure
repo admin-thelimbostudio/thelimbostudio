@@ -1,0 +1,11 @@
+/
+|-- index.html        # Homepage
+|-- about.html        # About Us page
+|-- consultants.html  # AI Consultant profiles
+|-- assessment.html   # Interactive assessment form
+|-- booking.html      # Consultation booking page
+|-- contact.html      # Contact form
+|-- assets/           # CSS, images, and scripts
+    |-- styles.css
+    |-- scripts.js
+    |-- images/
