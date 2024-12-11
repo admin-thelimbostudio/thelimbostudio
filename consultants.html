@@ -4,49 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultants - The Limbo Studio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="consultants.html" class="active">Consultants</a></li>
-                <li><a href="assessment.html">Get Started</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <h1 class="title is-4">The Limbo Studio</h1>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="about.html">
+                        About Us
+                    </a>
+                    <a class="navbar-item" href="consultants.html">
+                        Consultants
+                    </a>
+                    <a class="navbar-item" href="assessment.html">
+                        Get Started
+                    </a>
+                    <a class="navbar-item" href="contact.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <h1>Meet Our Consultants</h1>
-        <section class="consultants">
-            <div class="consultant">
-                <h2>Chatterbox Charlie</h2>
-                <p>Customer Support Guru</p>
-                <button onclick="window.location.href='assessment.html'">Learn More</button>
-            </div>
-            <div class="consultant">
-                <h2>Marketing Maven Mia</h2>
-                <p>Marketing Genius</p>
-                <button onclick="window.location.href='assessment.html'">Learn More</button>
-            </div>
-            <div class="consultant">
-                <h2>Stock Wizard Sid</h2>
-                <p>Inventory Management Pro</p>
-                <button onclick="window.location.href='assessment.html'">Learn More</button>
-            </div>
-            <div class="consultant">
-                <h2>Data Detective Dana</h2>
-                <p>Analytics Whiz</p>
-                <button onclick="window.location.href='assessment.html'">Learn More</button>
-            </div>
-            <div class="consultant">
-                <h2>Taskmaster Tim</h2>
-                <p>Time Management Wizard</p>
-                <button onclick="window.location.href='assessment.html'">Learn More</button>
+        <section class="hero is-fullheight">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Meet Our Consultants</h1>
+                    <section class="consultants">
+                        <div class="consultant">
+                            <h2>Chatterbox Charlie</h2>
+                            <p>Customer Support Guru</p>
+                            <button onclick="window.location.href='assessment.html'" class="button is-info is-outlined">Learn More</button>
+                        </div>
+                        <div class="consultant">
+                            <h2>Marketing Maven Mia</h2>
+                            <p>Marketing Genius</p>
+                            <button onclick="window.location.href='assessment.html'" class="button is-info is-outlined">Learn More</button>
+                        </div>
+                        <div class="consultant">
+                            <h2>Stock Wizard Sid</h2>
+                            <p>Inventory Management Pro</p>
+                            <button onclick="window.location.href='assessment.html'" class="button is-info is-outlined">Learn More</button>
+                        </div>
+                        <div class="consultant">
+                            <h2>Data Detective Dana</h2>
+                            <p>Analytics Whiz</p>
+                            <button onclick="window.location.href='assessment.html'" class="button is-info is-outlined">Learn More</button>
+                        </div>
+                        <div class="consultant">
+                            <h2>Taskmaster Tim</h2>
+                            <p>Time Management Wizard</p>
+                            <button onclick="window.location.href='assessment.html'" class="button is-info is-outlined">Learn More</button>
+                        </div>
+                    </section>
+                </div>
             </div>
         </section>
     </main>
+    <script src="assets/scripts.js"></script>
 </body>
 </html>
