@@ -4,30 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Limbo Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to The Limbo Studio</h1>
-        <p>Bespoke AI solutions for small businesses.</p>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <h1 class="title is-4">The Limbo Studio</h1>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="about.html">
+                        About Us
+                    </a>
+                    <a class="navbar-item" href="consultants.html">
+                        Consultants
+                    </a>
+                    <a class="navbar-item" href="assessment.html">
+                        Get Started
+                    </a>
+                    <a class="navbar-item" href="contact.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="consultants.html">Our Consultants</a></li>
-            <li><a href="assessment.html">Get Started</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
-            <h2>Transform Your Business</h2>
-            <p>Discover how AI can save you time and money while boosting efficiency.</p>
-            <a href="assessment.html" class="cta-button">Start Now</a>
+        <section class="hero is-fullheight">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Welcome to The Limbo Studio</h1>
+                    <p class="subtitle is-4">Bespoke AI solutions for small businesses.</p>
+                    <a href="assessment.html" class="button is-info is-outlined">Start Now</a>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 The Limbo Studio. All Rights Reserved.</p>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; 2024 The Limbo Studio. All Rights Reserved.</p>
+        </div>
     </footer>
+    <script src="assets/scripts.js"></script>
 </body>
 </html>
